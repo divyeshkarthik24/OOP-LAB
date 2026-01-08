@@ -1,0 +1,57 @@
+public class Datatypes
+{
+	public static void main(String[] args)
+	{
+		int a=10, b=20, c=30, d=40;
+		double a1=21.42, b1=56.84, c1=43.73, d1=34.86;
+		String aa1="hello", bb1="world", cc1="java";
+		boolean t=true, f=false;
+		System.out.println(a);
+		System.out.println(b);
+		
+		System.out.println("Addition:");
+		System.out.println(a+a1);
+		System.out.println(b+b1);
+		System.out.println(c+c1);
+		System.out.println(d+d1);
+		System.out.println("__________________");
+		
+		System.out.println("Subraction:");
+		System.out.println(a-a1);
+		System.out.println(b-b1);
+		System.out.println(c-c1);
+		System.out.println(d-d1);
+		System.out.println("__________________");
+		
+		System.out.println("Multiplication:");
+		System.out.println(a*a1);
+		System.out.println(b*b1);
+		System.out.println(c*c1);
+		System.out.println(d*d1);
+		System.out.println("__________________");
+		
+		System.out.println("Division:");
+		System.out.println(a/a1);
+		System.out.println(b/b1);
+		System.out.println(c/c1);
+		System.out.println(d/d1);
+		System.out.println("__________________");
+		
+		System.out.println("Modulus");
+		System.out.println(a1%a);
+		System.out.println(b1%b);
+		System.out.println(c1%c);
+		System.out.println(d1%d);
+		System.out.println("__________________");
+		
+		System.out.println("increment_and_decrement");
+		System.out.println(a++);
+		System.out.println(b--);
+		
+		
+		
+		
+	}
+}
+		
+	
